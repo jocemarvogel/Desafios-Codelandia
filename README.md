@@ -14,4 +14,5 @@ Os templates dos desafios são hospedados no Figma, atualmente contando com mais
  - [x] desafio 02 -	JordanShoes
  - [ ] desafio 03 -	One Page
  - [ ] desafio 04 -	Login
+
 [. . .]
