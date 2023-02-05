@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: linear-gradient(88.27deg, #574AE8 0%, #3ea1db 100%);
+    height: 170px;
+}
+
+.titulo {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 3% 0 3% 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.pesquisa {
+    position: relative;
+    width: 70%;
+    height: 35px;
+    display: flex;
+    margin: 3% auto;
+    align-items: center;
+    background-color: #ffffff30;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 97%;
+    height: 35px;
+    outline: none;
+    background: none;
+    border: none;
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+input::placeholder {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0;
+    color: white;
+}
+
+body {
+    background-color: #dddddda9;
+}
+
+main {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    margin: 50px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px #13131f0d;
+}
+
+.topSection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 22px 0 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 32.5px;
+    text-align: left;
+    margin: 1% 0 1%;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+#curtir {
+    width: 20px;
+    height: 20px;
+}
+
+.coracao {
+    display: inline-block;
+    width: 20px;
+    aspect-ratio: 1;
+    border-image: radial-gradient(#959595 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}

@@ -66,42 +66,56 @@ header {
     z-index: 0;
 }
 
-main{
+main {
     width: 100%;
     text-align: center;
     margin-bottom: 2.5%;
 }
 
-main h3 , p{
+main h3,
+p {
     text-align: center;
 }
 
-main h3{
+main h3 {
     margin: 30px 0 20px;
     font-size: 2.5rem;
     font-weight: 600;
     line-height: 39px;
 }
 
-main p{
+main p {
     margin: 0 0 20px;
     font-size: 1.5rem;
     line-height: 24px;
     font-weight: 500;
 }
 
-main img{
-    display: inline-block;
-    width: 230px;
-    height: 130px;
-    padding: 40px 50px;
-    background-color: #EBE6EA;
-    margin: 15px;
-}
-
-.imagens{
-    position: relative;
+.imagens {
+    width: 80%;
     margin: 0 auto;
 }
 
+.imgTenis {
+    width: 350px;
+    height: 250px;
+    margin: 15px;
+    cursor: pointer;
+    background-color: #EBE6EA;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+main img {
+    width: 250px;
+    height: 150px;
+    margin: 50px auto;
+}
+
+main img:hover {
+    transform: scale(1.5);
+    transition: 0.9s all ease;
+}
