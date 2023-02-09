@@ -94,6 +94,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 20px;
 }
 
 h2 {
@@ -119,15 +120,21 @@ p {
     font-weight: 400;
 }
 
-#curtir {
-    width: 20px;
-    height: 20px;
-}
-
 .coracao {
+    margin-right: 2.5px;
+    cursor: pointer;
     display: inline-block;
     width: 20px;
     aspect-ratio: 1;
     border-image: radial-gradient(#959595 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}
+
+.coracaoClicado {
+    cursor: pointer;
+    display: inline-block;
+    width: 25px;
+    aspect-ratio: 1;
+    border-image: radial-gradient(#338fc4 69%, #0000 70%) 84.5% fill/100%;
     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 }

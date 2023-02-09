@@ -1,0 +1,30 @@
+:root{
+
+}
+
+.gridPrincipal{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    
+}
+
+
+.gridEsquerdo , .gridDireito{
+    border: 1px solid black;
+}
+
+.gridEsquerdo{
+    width: 400px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+
+.gridDireito{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
