@@ -1,43 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../reset.css">
-    <link rel="stylesheet" href="./loginStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/loginStyle.css">
+
+    <script src="./JS/validar_email.js" defer></script>
 
     <title>Login Page</title>
 </head>
+
 <body>
-    <main >
+    <main>
         <article class="gridPrincipal">
             <section class="gridEsquerdo">
-                <img src="./img/undraw_About_us_page_re_2jfm 1.png" alt="">
+                <img src="./IMAGENS/login_imagens/undraw_About_us_page_re_2jfm 1.png" alt="">
             </section>
 
             <section class="gridDireito">
-                <form >
+                <div class="grid_login">
                     <h2>Bem vindo de volta</h2>
                     <h1>Faça login na sua conta</h1>
 
-                    <form action="">
-                        <label for="email">E-mail
-                            <input type="email">
-                        </label>
-                        <label for="">Senha
-                            <input type="password">
-                        </label>
+                    <small id="textEmail" class="textErro"></small>
+                    <small id="textSenha" class="textErro"></small>
+                    <small id="textForm" class="textErro"></small>
+
+
+                    <form action="" id="fomulario_cadastro">
+                        <fieldset class="formulario_login">
+                            <!-- Usado para agrupar elementos relacionados dentro de um formulario, podemos usar  a tag Legend, para colocar um titulo para esse agrupamento -->
+                            <div>
+                                <label for="email">
+                                    <p>E-mail</p>
+                                </label>
+                                <input type="email" id="email" placeholder="seu_e-mail@email.com">
+                            </div>
+
+                            <div>
+                                <label for="Senha">
+                                    <p>Senha</p>
+                                </label>
+                                <input type="password" id="senha" placeholder=" * * * * * * * * * *">
+
+                            </div>
+                        </fieldset>
+
+                        <div>
+                            <div class="opsoes_de_login">
+                                <label for="salvar_senha"><input type="checkbox" name="" id="">
+                                    <p>Lembre de mim</p>
+                                </label>
+                                <p><a href="http://">
+                                    Esqueceu a Senha?
+                                </a></p>
+                            </div>
+
+
+                            <button type="submit" value="enviar" class="submit_login">Entrar</button>
+
+                            <div class="opcoes_primeiro_login">
+                                <button class="google_login"><img
+                                        src="./IMAGENS/login_imagens/iconfinder_Google_1298745 1.png">Ou faça login com
+                                    o Google</button>
+                                <p>Não tem uma conta? <a href="http://">Cadastre-se</a></p>
+                            </div>
+                        </div>
                     </form>
-                </form>
-                <p>Lembre de mim</p>
-                <a href="http://"><p>Esqueceu a Senha?</p></a>
-                <button type="submit">Entrar</button>
-                <button> Ou faça login com o Google</button>
-                <p>Não tem uma conta? <a href="http://">Cadastre-se</a></p>
+                </div>
             </section>
         </article>
     </main>
 </body>
+
 </html>

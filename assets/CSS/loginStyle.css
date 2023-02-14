@@ -1,30 +1,173 @@
-:root{
+* {
+    font-size: 16px;
+    color: black;
+}
+
+:root {
+    --black: #000000;
+    --border: #00000050;
+    --placeholder: #9898988b;
+    --button_submit: #04c45c;
+    --color_font_button: #ffffff;
+    --button_hover: #000000dd;
+    --link: #2b6cb0;
+    --link_hover: #1a4470;
+    --alerta_erro: #ff0000;
+
+    --mainFont-Serif: 'Merriweather', serif;
+    --mainFont-SansSerif: 'Lato', sans-serif;
 
 }
 
-.gridPrincipal{
+.gridPrincipal {
     display: grid;
     grid-template-columns: auto auto;
     width: 100%;
-    
 }
 
-
-.gridEsquerdo , .gridDireito{
-    border: 1px solid black;
-}
-
-.gridEsquerdo{
+.gridEsquerdo {
     width: 400px;
     height: 330px;
     margin: 0 auto;
     margin-top: 25%;
 }
 
-.gridDireito{
+.gridDireito {
     width: 400px;
     height: 400px;
     margin: 0 auto;
     margin-top: 20%;
+}
+
+.grid_login {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: var(--mainFont-Serif);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+h1 {
+    font-family: var(--mainFont-Serif);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+p {
+    font-family: var(--mainFont-SansSerif);
+    font-size: 1.2rem;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.opcoes_primeiro_login p {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.formulario_login {
+    margin: 20px 0 0 0;
+    display: block;
+}
+
+.formulario_login input {
+    margin-top: 10px;
+    width: 95.5%;
+    height: 30px;
+    border: solid 1px var(--border);
+    border-radius: 5px;
+    font-family: var(--mainFont-SansSerif);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.formulario_login input::placeholder {
+    color: var(--placeholder);
+    font-family: var(--mainFont-SansSerif);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-family: var(--mainFont-SansSerif);
+    color: var(--color_font_button);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 3px 9px 9px -9px var(--button_hover);
+}
+
+.submit_login {
+    background-color: var(--button_submit);
+    height: 50px;
+}
+
+.google_login {
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google_login img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.formulario_login input,
+button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.opsoes_de_login {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    margin: 0 0 10px 0;
+}
+
+.opsoes_de_login label {
+    display: inline-flex;
+    align-items: center;
+}
+
+.opsoes_de_login input {
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--link_hover);
+    text-decoration: underline;
+}
+
+.textErro {
+    font-family: var(--mainFont-SansSerif);
+    color: var(--alerta_erro);
 }
 
