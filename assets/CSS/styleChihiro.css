@@ -1,0 +1,149 @@
+*{
+    font-family: 'Poppins', sans-serif; ;
+    font-size: 18px;
+}
+
+:root { 
+    --light_color: #628e75;
+    --dark_color: #1a4855;
+    --cor_de_fundo: linear-gradient(to right, var(--light_color), var(--dark_color));
+    --bottons: #658E76;
+    --font-color: #ffffff;
+    --link_hover:#ffffff78;
+}
+
+body {
+    background-image: var(--cor_de_fundo);
+    width: 80%;
+    margin: 0 auto;
+    color: var(--font-color);
+}
+
+header {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    margin-left: 25px;
+    padding: 15px 3px 0px 5px;
+}
+
+nav a:hover{
+    border-bottom: solid 3px var(--link_hover);
+}
+
+main{
+    display: flex;
+    margin: 0 auto;
+    margin: 50px 0;
+}
+
+h2,
+h1,
+button {
+    font-family: var(--font);
+    text-transform: uppercase;
+}
+
+article {
+    display: inline-flex;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.apresentacao{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titulo{
+    width: 65%;
+    margin-bottom: 20px;
+    
+}
+
+.apresentacao h2{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.apresentacao h1{
+    font-style: normal;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 109%;
+}
+
+.apresentacao p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.buttons_apresetacao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+button{
+    display: flex;
+    background: transparent;
+    border: 4px solid var(--bottons);
+    color: #100f0f;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    transform: skew(-24deg);
+    margin: 0 15px
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.buttons_apresetacao p{
+    font-size: 1.3rem;
+    margin: 0 5px;
+    color: var(--font-color);
+}
+
+button p{
+    transform: skew(24deg);
+    margin: 0 auto;
+}
+
+.assistir_filme{
+    background: var(--bottons);
+    align-items: center;
+    margin: 0 auto;
+}
+
+.assistir_filme:hover{
+    background: transparent;
+}
+
+.assistir_trailer:hover{
+    background: var(--bottons);
+}
+
+.assistir_filme img{
+    transform: skew(24deg);
+}
+
+.imagem_fantasmas{
+    position: absolute;
+    left: 850px;
+    height: 450px;
+    width: 600px;
+}
