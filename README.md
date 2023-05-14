@@ -14,7 +14,7 @@ Os templates dos desafios são hospedados no Figma, atualmente contando com mais
  - [x] Desafio 02 -	[JordanShoes](https://jocemarvogel.github.io/Desafios-Codelandia/assets/lojaDeTenis.html)
  - [X] Desafio 03 -	[One Page](https://jocemarvogel.github.io/Desafios-Codelandia/assets/onePage.html)
  - [x] Desafio 04 -	[Login](https://jocemarvogel.github.io/Desafios-Codelandia/assets/login.html)
- - [ ] Desafio 05 - [Studio Ghibli](https://jocemarvogel.github.io/Desafios-Codelandia/assets/chihiro.html)
+ - [x] Desafio 05 - [Studio Ghibli](https://jocemarvogel.github.io/Desafios-Codelandia/assets/chihiro.html)
  - [ ] Desafio 06 - Loki
  - [ ] Desafio 07 - Valorant
  - [ ] Desafio 08 - CodeMogi
