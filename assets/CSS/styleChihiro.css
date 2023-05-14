@@ -1,6 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif; ;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 :root { 
@@ -14,9 +14,15 @@
 
 body {
     background-image: var(--cor_de_fundo);
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     color: var(--font-color);
+}
+
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 header {
@@ -25,6 +31,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 50px 0;
 }
 
 nav a{
@@ -34,12 +41,6 @@ nav a{
 
 nav a:hover{
     border-bottom: solid 3px var(--link_hover);
-}
-
-main{
-    display: flex;
-    margin: 0 auto;
-    margin: 50px 0;
 }
 
 h2,
@@ -53,7 +54,6 @@ article {
     display: inline-flex;
     width: 100%;
     margin: 0 auto;
-
 }
 
 .apresentacao{
@@ -67,23 +67,23 @@ article {
 .titulo{
     width: 65%;
     margin-bottom: 20px;
-    
+
 }
 
 .apresentacao h2{
-    font-size: 1.3rem;
+    font-size: 3em;
     margin-bottom: 10px;
 }
 
 .apresentacao h1{
     font-style: normal;
-    font-size: 4rem;
+    font-size: 4em;
     font-weight: 900;
     line-height: 109%;
 }
 
 .apresentacao p{
-    font-size: 0.9rem;
+    font-size: 1em;
     font-weight: 400;
     line-height: 25px;
 }
@@ -113,7 +113,7 @@ button:hover{
 }
 
 .buttons_apresetacao p{
-    font-size: 1.3rem;
+    font-size: 0.8em;
     margin: 0 5px;
     color: var(--font-color);
 }
@@ -143,7 +143,7 @@ button p{
 
 .imagem_fantasmas{
     position: absolute;
-    left: 850px;
-    height: 450px;
-    width: 600px;
+    left: 60%;
+    width: 35%;
+    margin-top: -5%;
 }
