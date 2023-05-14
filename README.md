@@ -11,10 +11,10 @@ E aqui, você pode encontrar os desafios que conclui atualmente.
 Os templates dos desafios são hospedados no Figma, atualmente contando com mais de 30 desafios, para visualiza-los basta clicar [AQUI](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=624%3A2), 
 
  - [x] Desafio 01 - [Blog](https://jocemarvogel.github.io/Desafios-Codelandia/assets/blog.html)
- - [x] Desafio 02 -	JordanShoes
- - [X] Desafio 03 -	One Page
- - [x] Desafio 04 -	Login
- - [ ] Desafio 05 - Studio Ghibli
+ - [x] Desafio 02 -	[JordanShoes](https://jocemarvogel.github.io/Desafios-Codelandia/assets/lojaDeTenis.html)
+ - [X] Desafio 03 -	[One Page](https://jocemarvogel.github.io/Desafios-Codelandia/assets/lojaDeTenis.html)
+ - [x] Desafio 04 -	[Login](https://jocemarvogel.github.io/Desafios-Codelandia/assets/login.html)
+ - [ ] Desafio 05 - [Studio Ghibli](https://jocemarvogel.github.io/Desafios-Codelandia/assets/chihiro.html)
  - [ ] Desafio 06 - Loki
  - [ ] Desafio 07 - Valorant
  - [ ] Desafio 08 - CodeMogi
