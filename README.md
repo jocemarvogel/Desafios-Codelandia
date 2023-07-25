@@ -1,5 +1,6 @@
 ﻿# Desafios Codelândia
 
+
 "Codelândia" é o nome da comunidade organizada e mantida pelo criador de conteúdo [Iuri Silva](https://www.instagram.com/iuricode/) que convencido de que "juntos podemos fazer mais", criou um [Discord](https://discord.com/invite/QevDJqCzaY) para uma comunidade iniciante em desenvolvimento Frontend onde semanalmente posta desafios para os mesmo.
 
 E aqui, você pode encontrar os desafios que conclui atualmente.
