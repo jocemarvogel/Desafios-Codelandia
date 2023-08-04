@@ -1,45 +1,48 @@
-*{
-    font-family: 'Poppins', sans-serif; ;
+* {
+    font-family: 'Poppins', sans-serif;
+    ;
     font-size: 16px;
 }
 
-:root { 
+:root {
     --light_color: #628e75;
     --dark_color: #1a4855;
     --cor_de_fundo: linear-gradient(to right, var(--light_color), var(--dark_color));
     --bottons: #658E76;
     --font-color: #ffffff;
-    --link_hover:#ffffff78;
+    --link_hover: #ffffff78;
 }
 
 body {
     background-image: var(--cor_de_fundo);
-    width: 100%;
-    color: var(--font-color);
-}
-
-main{
     width: 80%;
+    color: var(--font-color);
     display: flex;
-    flex-direction: column;
     margin: 0 auto;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin: 0 50px;
+    justify-content: space-between;
+}
+
 header {
-    margin-top: 50px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
-nav a{
+nav a {
     margin-left: 25px;
     padding: 15px 3px 0px 5px;
 }
 
-nav a:hover{
+nav a:hover {
     border-bottom: solid 3px var(--link_hover);
 }
 
@@ -50,100 +53,188 @@ button {
     text-transform: uppercase;
 }
 
-article {
-    display: inline-flex;
-    width: 100%;
-    margin: 0 auto;
+.titulo h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 109%;
 }
 
-.apresentacao{
+.titulo h1 {
+    font-style: normal;
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 109%;
+}
+
+article {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.imagem_fantasmas {
     position: relative;
+    margin: 0 auto;
     width: 50%;
+    justify-content: left;
+}
+
+.apresentacao {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 40%;
 }
 
-.titulo{
-    width: 65%;
+.titulo {
     margin-bottom: 20px;
-
 }
 
-.apresentacao h2{
-    font-size: 3em;
+.apresentacao h2 {
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
-.apresentacao h1{
+.apresentacao h1 {
     font-style: normal;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 900;
     line-height: 109%;
 }
 
-.apresentacao p{
-    font-size: 1em;
+.apresentacao p {
+    font-size: 16px;
     font-weight: 400;
-    line-height: 25px;
+    height: auto;
+    line-height: 25.2px;
 }
 
-.buttons_apresetacao{
+.buttons_apresetacao {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    width: 500px;
+
 }
 
-button{
+button {
     display: flex;
     background: transparent;
     border: 4px solid var(--bottons);
     color: #100f0f;
-    padding: 10px 40px;
+    padding: 8px 30px;
     text-transform: uppercase;
-    font-size: 24px;
     font-weight: 300;
     transform: skew(-24deg);
-    margin: 0 15px
+    width: 100%;
+
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
-.buttons_apresetacao p{
+.buttons_apresetacao p {
     font-size: 0.8em;
     margin: 0 5px;
     color: var(--font-color);
+    font-size: 18px;
 }
 
-button p{
+button p {
     transform: skew(24deg);
-    margin: 0 auto;
 }
 
-.assistir_filme{
+.assistir_filme {
     background: var(--bottons);
     align-items: center;
-    margin: 0 auto;
 }
 
-.assistir_filme:hover{
+.assistir_filme:hover {
     background: transparent;
 }
 
-.assistir_trailer:hover{
+.assistir_trailer:hover {
     background: var(--bottons);
 }
 
-.assistir_filme img{
+.assistir_filme img {
     transform: skew(24deg);
 }
 
-.imagem_fantasmas{
-    position: absolute;
-    left: 60%;
-    width: 35%;
-    margin-top: -5%;
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*                                                 MEDIA QUERY                                                    */
+/*----------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width:600px) {
+
+    main {
+        margin: 0 auto;
+
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cabecalho {
+        width: 100%;
+    }
+
+    .imagem_fantasmas {
+        display: flex;
+        width: 90%;
+        margin-top: -30px;
+        align-items: center;
+    }
+
+    nav a {
+        margin-left: 10px;
+    }
+
+    .apresentacao {
+        width: 90%;
+    }
+
+    .apresentacao p {
+        width: 110%;
+        font-size: 12px;
+        font-weight: 400;
+        height: auto;
+        line-height: 25.2px;
+    }
+
+    .titulo h2 {
+        font-size: 1rem;
+    }
+
+    .titulo h1 {
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+
+    .titulo p {
+        display: none;
+    }
+
+    .assistir_trailer {
+        display: none;
+    }
+
+    .buttons_apresetacao {
+        width: 100%;
+
+    }
+
+
 }
