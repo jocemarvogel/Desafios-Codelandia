@@ -233,7 +233,7 @@ textarea::placeholder{
 /*                                                 MEDIA QUERY                                                    */
 /*----------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width:720px) {
+@media (max-width:600px) {
     .banner{
         width: auto;
         display: flex;

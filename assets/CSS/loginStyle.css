@@ -18,6 +18,10 @@
     --mainFont-SansSerif: 'Lato', sans-serif;
 }
 
+main{
+    width: 90%;
+}
+
 .gridPrincipal {
     display: grid;
     grid-template-columns: auto auto;
@@ -175,8 +179,10 @@ a:hover {
 /*                                                 MEDIA QUERY                                                    */
 /*----------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width:720px) {
+@media (max-width:600px) {
     .gridEsquerdo{
         display: none;
     }
+
+
 }
