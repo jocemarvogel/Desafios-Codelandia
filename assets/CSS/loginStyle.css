@@ -16,7 +16,6 @@
 
     --mainFont-Serif: 'Merriweather', serif;
     --mainFont-SansSerif: 'Lato', sans-serif;
-
 }
 
 .gridPrincipal {
@@ -171,3 +170,13 @@ a:hover {
     color: var(--alerta_erro);
 }
 
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*                                                 MEDIA QUERY                                                    */
+/*----------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width:720px) {
+    .gridEsquerdo{
+        display: none;
+    }
+}

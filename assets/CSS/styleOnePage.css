@@ -14,24 +14,26 @@
 }
 
 header {
-    width: 100%;
     background-color: var(--corFundo);
+}
+
+.banner{
+    width: 90%;
 }
 
 .banner,
 .corpoPrincipal {
-    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 0;
 }
 
 .titulo {
     position: relative;
     display: block;
-    width: 30%;
-
+    z-index: 2;
 }
 
 header h2 {
@@ -73,10 +75,11 @@ header button:hover {
     position: relative;
     transform: scale(0.7);
     margin-right: -80px;
+    z-index: 1;
 }
 
 main {
-    width: 100%;
+    width: auto;
     background-color: var(--branco);
 }
 
@@ -224,4 +227,25 @@ textarea::placeholder{
     font-weight: 400;
     line-height: 22px;
     align-items: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*                                                 MEDIA QUERY                                                    */
+/*----------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width:720px) {
+    .banner{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner h2{
+        margin-top: 50px;
+    }
+
+    .corpoPrincipal{
+        display: flex;
+        flex-direction: column;
+    }
 }
