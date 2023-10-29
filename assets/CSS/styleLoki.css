@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+
+*{
+    color: white;
+    font-size: 16px;
+    font-family: 'B612', sans-serif;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h3{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+header h1{
+    font-size: 9rem;
+    margin-top: 50px;
+}
+
+.geral{
+    display: flex;
+    margin-top:150px;
+}
+.capaLoki{
+    margin-right: 50px;
+}
+
+article{
+    margin: 10px 0;
+}
+
+article p {
+    line-height: 25px;
+}
+
+.button{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+}
+
+button{
+    padding: 10px 22px;
+    color: rgb(255, 255, 255);
+    background-color: white;
+    margin: 0 5px;
+    border: none;
+    font-size:0.8em;
+    float: left;
+    border-radius: 3px;
+}
+
+.assista{
+    background: #0072D2;
+}
+
+.trailer{
+    background: linear-gradient(0deg, #131318, #131318),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #FFFFFF;
+}
+
+button:hover{
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+.dados{
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.imagemFundo{
+    background-image: url(/assets/IMAGENS/loki_imagens/fundoLoki.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.relogio{
+    display: flex;
+    align-items:center;  
+    gap: 5px;
+}
+
+.dados img{
+    filter: invert(100%);
+    
+}
+
+.estrela:hover{
+    filter: invert(55%) sepia(70%) saturate(918%) hue-rotate(3deg) brightness(109%) contrast(102%);
+    
+}
+
+
+@media (max-width:600px) {
+    body{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header h3{
+        font-size: 1rem;
+    }
+    
+    header h1{
+        font-size: 6rem;
+        margin-top: 50px;
+    }
+
+    main{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .capaLoki{
+        display: none;
+    }
+    
+
+    .dados{
+        padding: 5px;
+        display: flex;
+        
+    }
+
+    .dados img{
+        width: 20px;
+    }
+
+    
+}
